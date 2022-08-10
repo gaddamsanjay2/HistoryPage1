@@ -79,62 +79,64 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:orientation="horizontal"
-        android:weightSum="3">
+        android:layout_margin="10dp"
+        android:weightSum="4">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border"
+        android:layout_weight="1"
         android:layout_gravity="center">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Month"
-            android:layout_weight="1"
+            android:layout_gravity="center"
             android:layout_marginLeft="5dp"
             android:padding="5dp"
-            android:layout_gravity="center"/>
+            />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="5dp"
+            android:padding="3dp"
             android:src="@drawable/ic_baseline_arrow_drop_down_24"
             android:layout_gravity="center"/>
 
     </LinearLayout>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@drawable/border"
-            android:layout_gravity="center"
-            android:layout_marginLeft="8dp">
+            android:layout_weight="1.3"
+            android:layout_gravity="center">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Categories"
-                android:padding="5dp"
-                android:layout_weight="1"
-                android:layout_marginLeft="3dp"
 
-                android:layout_gravity="center"/>
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                />
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="3dp"
                 android:src="@drawable/ic_baseline_arrow_drop_down_24"
-                android:layout_gravity="center"
-                android:padding="5dp"
-                />
+                android:layout_gravity="center"/>
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="110dp"
 
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+
+            android:layout_gravity="center"
+            android:layout_weight="0.7"
             android:background="@drawable/border">
 
             <TextView
@@ -152,6 +154,31 @@
                 android:layout_gravity="center"
                 android:padding="5dp"
                 android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_weight="1"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filyers"
+
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:src="@drawable/ic_baseline_arrow_drop_down_24"
+                android:layout_gravity="center"/>
 
         </LinearLayout>
 
